@@ -54,7 +54,7 @@ void update_pallete()
 	char *ptrs = NULL;
 	char *ptrd=display_frame+x*2;
 
-	fp = fopen("/home/am/Desktop/_/image.rgb","rb");
+	fp = fopen("data/image.rgb","rb");
 	fseek(fp,0,2);
 	size = ftell(fp);
 	rewind(fp);
